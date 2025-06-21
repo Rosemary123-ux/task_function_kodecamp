@@ -15,9 +15,6 @@ console.log(factorial(5));
 console.log(factorial(8));
 //output 40320
 
-
-
-
 // largest number
 function largestvalue(arr){
 
@@ -39,27 +36,13 @@ let largest = largestvalue(arr);
 
 console.log(largest);
 
-
-
-
 //printing a table
-
 function multiplicationTable(num) {
-  
   for (let i = 1; i <= 12; i++) {
-
-    table += `${num} x ${i} = ${num * i}`;
-    
+    console.log(`${num} x ${i} = ${num * i}`);
   }
-  return table;
 }
-
-console.log(multiplicationTable(6));
-
-
-
-
-
+multiplicationTable(6);
 
 // reversing  
 function reverseString(mine , yours) {
@@ -78,8 +61,7 @@ reverseString("my name is Rosemary", printReversed);
 // Output: yramesoR si eman ym
 
 
-
-
+//count consonants
 function countConsonants(str) {
   let consonants = 0;
   for (let i = 0; i < str.length; i++) {
