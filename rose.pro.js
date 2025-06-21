@@ -48,13 +48,15 @@ function multiplicationTable(num) {
   
   for (let i = 1; i <= 12; i++) {
 
-    console.log(`${num} x ${i} = ${num * i}`);
+    table += `${num} x ${i} = ${num * i}`;
+    
   }
+  return table;
 }
 
-multiplicationTable(6);
+console.log(multiplicationTable(6));
 
-console.log(num);
+
 
 
 
